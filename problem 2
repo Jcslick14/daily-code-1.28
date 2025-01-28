@@ -1,0 +1,8 @@
+#problem 2
+
+def custom_sheep_call(vowel, count):
+    print("B", end = "")
+    for i in range(count):
+        print(vowel, end = "")
+        
+custom_sheep_call("a", 70)
