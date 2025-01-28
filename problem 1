@@ -1,0 +1,14 @@
+#1/28 Daily Code: Python Function Reviews, Recursion Reviews, Codequest
+
+def find_smallest(x, y, z):
+    if x < y and x < z:
+        print ("smallest one is x")
+        return x
+    elif y < x and y < z:
+        print ("smallest one is y")
+        return y
+    else:
+        return c
+        
+        
+print (find_smallest(3, 5, 8)) #call it
